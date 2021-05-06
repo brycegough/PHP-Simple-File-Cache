@@ -12,6 +12,12 @@ class FileCache {
         $this->load();
     }
 
+    public function set($name, $value) {
+        $this->data[$name] = $value;
+        $this->save();
+        return $this->data[$name];
+    }
+
     public function get($name, $set) {
         $value = $this->data[$name] ?? null;
 
