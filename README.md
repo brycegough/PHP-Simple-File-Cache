@@ -20,7 +20,7 @@ define('STORAGE_FILE', __DIR__ . '/.storage');
 $storage = new FileCache( STORAGE_FILE );
 
 /*
- * Fetch a value, with a callback to set the value
+ * Fetch a value, with a callback to set the fallback value
  */
 $value = $storage->get('my_value', function() {
     return [
