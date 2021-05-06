@@ -1,4 +1,4 @@
-# PHP-Simple-File-Cache
+# Simple File Cache for PHP
 Create a simple caching/storage system using PHP files
 
 ```PHP
