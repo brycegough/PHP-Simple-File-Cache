@@ -27,4 +27,9 @@ $value = $storage->get('my_value', function() {
         'some' => 'data'  
     ];
 });
+
+/*
+ * Set a value
+ */
+$storage->set('another_value', 'test value');
 ```
